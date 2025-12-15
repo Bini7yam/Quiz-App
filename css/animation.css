@@ -1,0 +1,156 @@
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-0.1rem);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(-0.1rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes up {
+    0% {
+        height: 0vh;
+    }
+    30% {
+        height: 100vh;
+    }
+    60% {
+        height: 100vh;
+        width: 12.5%;
+    }
+    100% {
+        width: 0;
+        height: 100vh;
+    }
+}
+@keyframes up2 {
+    0% {
+        height: 0vh;
+    }
+    35% {
+        height: 100vh;
+    }
+    60% {
+        height: 100vh;
+        width: 12.5%;
+    }
+    100% {
+        width: 0;
+        height: 100vh;
+    }
+}
+@keyframes up3 {
+    0% {
+        height: 0vh;
+    }
+    40%{
+        height: 100vh;
+    }
+    60% {
+        height: 100vh;
+        width: 12.5%;
+    }
+    100% {
+        width: 0;
+        height: 100vh;
+    }
+}
+@keyframes up4 {
+    0% {
+        height: 0vh;
+    }
+    35% {
+        height: 100vh;
+        width: 12.5%;
+    }
+    60% {
+        height: 100vh;
+        width: 12.5%;
+    }
+    100% {
+        width: 0;
+        height: 100vh;
+    }
+}
+@keyframes up5 {
+    0% {
+        height: 0vh;
+    }
+    30% {
+        height: 100vh;
+    }
+    60% {
+        height: 100vh;
+        width: 12.5%;
+    }
+    100% {
+        width: 0;
+        height: 100vh;
+    }
+}
+@keyframes up6 {
+    0% {
+        height: 0vh;
+    }
+    40% {
+        height: 100vh;
+    }
+    60% {
+        height: 100vh;
+        width: 12.5%;
+    }
+    100% {
+        width: 0;
+        height: 100vh;
+    }
+}
+@keyframes up7 {
+    0% {
+        height: 0vh;
+    }
+    27% {
+        height: 100vh;
+    }
+    60% {
+        height: 100vh;
+        width: 12.5%;
+    }
+    100% {
+        width: 0;
+        height: 100vh;
+    }
+}
+@keyframes up8 {
+    0% {
+        height: 0vh;
+    }
+    30% {
+        height: 100vh;
+    }
+    60% {
+        height: 100vh;
+        width: 12.5%;
+    }
+    100% {
+        width: 0;
+        height: 100vh;
+    }
+}
+@keyframes open {
+    from {
+        transform: translateY(-1rem) rotateX(0);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0) rotateX(0);
+        opacity: 1;
+    }
+}

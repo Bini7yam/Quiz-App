@@ -1,0 +1,50 @@
+@media all and (max-width: 500px){
+    div.chs {
+        width: 40%;
+    }
+    div.chs:nth-child(1) {
+        bottom: 5%;
+        left: 5%;
+    }
+    .pop {
+        overflow: scroll;
+    }
+    div .chs:nth-child(2) {
+        bottom: 5%;
+        right: 5%;
+    }
+    div .chs:nth-child(3) {
+        top: 5%;
+        left: 5%;
+    }
+    #question {
+        width: 80%;
+        height: 60%;
+        top: 0;
+        display: flex;
+        color: white;
+        font-size: 3rem;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255,255,255,0.1);
+        position: absolute;
+        font-style: calibri;
+    }
+    div .chs:nth-child(4) {
+        top: 5%;
+        right: 5%;
+    }
+    #tools {
+        display: none;
+    }
+}
+@media (orientation: portrait) {
+    #qboard {
+        height: 100%;
+    }
+}
+@media all and (max-width: 1000px){
+    #qboard {
+        height: 100%;
+    }
+}

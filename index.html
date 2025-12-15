@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Math Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animation.css" type="text/css" media="all" />
+    
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+        <header>
+                <h1 class="headers " id="mq"> Math Quiz </h1>
+        </header>
+    <main>
+        <div class="flex " id="container">
+            <div id="home">
+                <button id="start" class="btn shine hbtn" >Start
+                </button>
+                <button id="help" class="btn shine hbtn" >Help
+                </button>
+            </div>
+            <div  id="input">
+                    
+                    </button>
+                    <button class="shine in" id="play">Play
+                    </button >
+                   
+                    <label for="timer" class="check in shine">Timer
+                   <input type="checkbox" name="timer" id="timer" checked>
+                   <span id="slider"></span>
+                    </label>
+                    <button class="shine in" >
+                        <label for="amount">Amount</label>
+                        <input type="number" autofocus name="amount" id="amount" min="1" oninput="validity.valid||(value = '')" value=10  >
+                    </button>
+                    <button class="btn shine in" id="back" >Back
+                    </button>
+            </div>
+        </div>     
+    </main>
+    <footer>
+        
+    </footer>
+    <div id="contain">
+        
+    </div>
+    <div id="qboard"> 
+        <div id="blur"></div>
+        <div id="quest">
+            <div id="question">
+            </div>
+            <div id="tools">
+                <button class="tool opnPop"><span>quit</span></button>
+                <button class="tool restart">restart</button>
+            </div>
+        </div>
+        <div id="ans">
+            <div class="chs"></div>
+            <div class="chs"></div>
+            <div class="chs"></div>
+            <div class="chs"></div>
+            <div class="time"></div>
+            <div id="block"></div>
+        </div>
+    </div>
+    <div class="pop">
+        <p>This game has two features. With one you can answer basic Math operation question given an unlimited time. But you can switch to timed mode in which you will be given a finite amount of time to answer after which the question changes and the current question will be counted as a failure. You also have a choice of operation and amount of question. <b>Good Luck!</b></p>
+        <button class="close">X</button>
+        </div>
+    <div class="score">
+            <p class="gameOver">Game Over!</p>
+            <p class="final"></p>
+            <button class="tool quit" id='back2'>Back</button>
+    </div>
+    <div class="transit">
+       <div class="cover"></div>
+       <div class="cover"></div>
+       <div class="cover"></div>
+       <div class="cover"></div>
+       <div class="cover"></div>
+       <div class="cover"></div>
+       <div class="cover"></div>
+       <div class="cover"></div>
+    </div>
+   
+   <div class="opr-container">
+       
+       <div class="opp">
+        <button  value="0" id="addition" class="inp shine opr">Addition</button>
+        <button  value="1" id="subtraction" class="inp shine opr">Subtraction</button>
+        <button  value="2" id="multiplication" class="inp shine opr">Multiplication</button>
+        <button  value="3" id="division" class="inp shine opr">Division</button>
+        </div>
+        
+   </div>
+
+   
+   <div class="confirm">
+    <div class="confirm-box">
+        <p class="sure">Are you sure you want to quit?</p>
+        <div class="c-btns"> <button class="conf btn1 quit">yes</button><button class="conf btn2">cancel</button></div>
+    </div>
+</div>
+   
+     <script src="js/function.js"></script>
+    <script src="js/script.js" charset="utf-8">
+        
+    </script>
+    
+</body>
+</html>
