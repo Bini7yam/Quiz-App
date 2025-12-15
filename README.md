@@ -22,8 +22,6 @@ The app provides instant feedback and a final score to encourage learning and en
 * CSS
 * JavaScript
 
-*(Update this section if you used any frameworks or libraries.)*
-
 ---
 
 ## 🚀 Getting Started
